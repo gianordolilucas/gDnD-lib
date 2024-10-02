@@ -6,8 +6,8 @@ export default defineConfig({
   build: {
     lib: {
       entry: path.resolve(__dirname, 'src/index.ts'), 
-      name: 'gDnDLib',
-      fileName: (format) => `gdnd-lib.${format}.js`
+      name: 'reactGDnD',
+      fileName: (format) => `react-g-dnd-lib.${format}.js`
     },
     rollupOptions: {
       external: ['react', 'react-dom'],
