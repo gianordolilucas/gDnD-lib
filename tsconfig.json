@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "target": "ESNext", // Define o alvo da compilação para ECMAScript mais recente
+    "module": "ESNext", // Usa o sistema de módulos ES
+    "jsx": "react-jsx", // Habilita o suporte a JSX com a sintaxe JSX moderna do React 17+
+    "lib": ["DOM", "ESNext"], // Adiciona suporte à DOM e recursos modernos do ECMAScript
+    "moduleResolution": "Node", // Resolve módulos usando o padrão Node.js
+    "esModuleInterop": true, // Habilita a interoperabilidade de módulos ES6
+    "skipLibCheck": true, // Ignora verificação de tipos em bibliotecas
+    "forceConsistentCasingInFileNames": true, // Garante que os nomes de arquivos sejam tratados de forma consistente
+    "strict": true // Habilita verificações estritas
+  },
+  "include": ["src"], // Inclui a pasta src para compilação
+  "exclude": ["node_modules", "dist"] // Exclui node_modules e dist
+}
