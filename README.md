@@ -16,5 +16,5 @@ A flexible and scalable React library for creating drag-and-drop interfaces.
 To install the library via npm:
 
 ```bash
-npm install gDnDLib
+npm install react-g-dnd-lib
 ```
